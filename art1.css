@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red !important;
+    }
+
+    header {
+        font-size: x-large;
+        font-weight: bold;
+        text-align: center;
+        background: linear-gradient(#051118, #5C373C);
+        color: #CAA893;
+        border: thin rgb(10, 5, 2) inset;
+        margin: 20px 30px;
+        padding: 10px 20px;
+    }
+    article {
+        color: #5C373C;
+        margin: 10px;
+        letter-spacing: 1.25px;
+    }
+        
+    
+        }
+    
+        footer {
+            font-size: x-medium;
+            font-style: italic;
+            
+            padding: 10px;
+            }    
+.grayBackground{
+    background-color: #CAA893
+}   

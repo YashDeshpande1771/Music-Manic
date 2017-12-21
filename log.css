@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Demo Font";
+    src: url(/demofont.otf);
+}s
+
+ection p{
+    font-family: demofont;
+    
+
+}
+section > p {
+    font-weight: bold;
+  }
+
+  section > article > aside > p{
+      color: pink;
+      border-style: ridge;
+      border-width: 5px;
+      padding: 10px;
+      margin-left: 200px;
+
+  }
+
+  section > article > p{
+      font-style: italic;
+  }
+
+  @media screen {
+    body {
+        background-color: red;
+    }
+}

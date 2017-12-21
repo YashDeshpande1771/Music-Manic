@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head> 
+        <title>
+            Sign up window
+            
+        </title>
+        <link rel="stylesheet" href="logwin.css" />
+    </head>
+    <body>
+        <header>
+           <h1>Music Chart Repository</h1> 
+        </header>
+
+
+        <script>
+       /*     function changeTitle() {
+              var title = document.querySelector("#maintitle");
+              
+              title.innerHTML = window.alert("life sucks");
+              title.innerHTML= "<br /> kill me pls ";
+              
+            }
+            */
+     function validateForm() {
+    var x = document.forms["myForm"]["age"].value;
+ if (x <0 || x>100) {
+        alert("Invalid Age");
+        return false;
+    }
+
+    var y= document.forms["myForm"]["password"].value;
+
+    if(y=="")
+    {
+        alert("Please Enter password");
+        return false;
+    }
+    else if(y.length <5)
+    {
+        alert("It's a weak password")
+        return false;
+    }
+    
+}
+            </script>
+
+            <form name="myForm" action= "index.html" onsubmit="return validateForm()" method="post">
+
+            username: <input type= "text" name="username" placeholder="Enter username"/>
+            <br />
+            password: <input type= "password" name= "password" placeholder="Enter password" />
+            <br />
+            male: <input type= "checkbox" name="male" />
+            female: <input type= "checkbox" name="female" />
+            <br />
+
+            birthday : <input type="date" name="bday" />
+            <br />
+            age: <input type="number" name="age" value="" >
+            <br />
+            <button type="submit" value="submit"> Sign Up </button> 
+        </form>
+ 
+        
+
+    </body>
+</html>

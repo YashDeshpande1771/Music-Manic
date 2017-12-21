@@ -1,0 +1,29 @@
+body{
+    background-color: palegoldenrod;
+}
+
+header{
+    font-family: Courier New, Courier, monospace;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 50px;
+    border: solid;
+    background-color:  white;
+    border-color: palegoldenrod;
+    letter-spacing: 1.5px;
+}
+
+button {
+    width: 10%;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    border: white;
+    cursor: pointer;
+
+}
+.gray{
+    background-color: gray;
+}
+
